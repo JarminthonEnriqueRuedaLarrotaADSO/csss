@@ -5,31 +5,12 @@
     background-color: orange;
     color: aqua;
 }
-/* en este caso tomaria el segundo porque se encuentran en la misma categoria de elementos */
-h2{
-    color: yellowgreen;
-}
-h2{
-    color: chartreuse;
-}
-/* en este campo se encuentran todos selectores de la misma categoria, pero al igual que en el anterior eligira el ultimo por estar de ultimo en la cascada */
-[color="red_ green"]{
-    color:burlywood;
-}
-.color{
-    color: black;
-}
-p:hover{
-    color:aliceblue;
-}
-/* el identificador tamvbien se encuentra en una categoria mas alta por ende si lo aplico en comparacion a los anteriores este seria prioridad */
-#color{
-    color: black;
-}
-/* despues del id siguen los estilos en linea en cuestion de jerarquia, lo cual seria algo asi  <h4 style="color: red;"></h4> */
 
-
-/*el important, que es la categoria mas alta de todas  "pero no es recomendado usar"  */
-.ccolor{
-    color:red !important
+.contac-form__input
+{
+    color: blueviolet;
+}
+.contac-form__input--active
+{
+    color: #000;
 }
