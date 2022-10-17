@@ -5,12 +5,19 @@
     background-color: orange;
     color: aqua;
 }
-
-.contac-form__input
-{
-    color: blueviolet;
+/* si se le da cualquier valor a la primera caja contenedora, cuando se ponga 1em en la siguiente caja esta va a tener el valor de la caja contenedora */
+/* caja contenedora */
+.contact-form {
+    font-size: 20px;
 }
-.contac-form__input--active
-{
-    color: #000;
+
+.contact-form__h2 {
+    font-size: 1em;
+}
+/* caja contenedora */
+.unidad {
+    font-size: 10px;
+}
+.unidad__medida {
+    font-size: 1em;
 }
