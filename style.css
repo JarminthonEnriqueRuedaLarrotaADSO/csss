@@ -6,10 +6,6 @@
     color: aqua;
 }
 /* los mas utiles */
-.propiedades {
-    font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 2;
-    font-weight: 400;
-    color: aqua;
+.tipografia {
+    font-family: 'Fuzzy Bubbles', cursive;
 }
