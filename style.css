@@ -5,7 +5,16 @@
     background-color: orange;
     color: aqua;
 }
-/* los mas utiles */
-.color{
-   color: blueviolet;
+/* el h2 es una caja que ocupa todo el ancho de la pantalla */
+h2 {
+    background-color: black;
+}
+/* Este es otro h2 pero con display: inline; que, ocasiona q este no ocupe toda el ancho de la pantalla si no q se transforma en un elemento en linea */
+.caja {
+    display: inline;
+    background-color: blue;
+}
+/* este elemento es enlina por lo tanto no ocupa toda la pantalla. */
+b {
+    background-color: azure;
 }
