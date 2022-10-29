@@ -5,33 +5,19 @@
     background-color: orange;
     color: aqua;
 }
-/* El margin es como el padding pero en lugar de ser el espacio entre el texto y la caja es el espacio entre la caja y el exterior, por ejemplo otra caja */
+/* El box model es la jerarquia en la que se encuantran las propiedades de la caja por decir algo:
+content: es el contenido de la caja
+padding: espacio entre contenido y caja 
+border : borde de la caja
+margin : espacio entre caja y exterior */
 .estilo1
 {
-border-radius: 20%;
 border: 5px dashed black;
-margin-left: 50px;
+height: 50px;
+width: 300px;
+margin: 50px;
 box-sizing: border-box;
 padding: 100px;
-display: inline-block;
 color: black;
-font-size: 10px;
-height: 200px;
-background-color: aqua;
-
-}
-.estilo2
-{ 
-border-radius: 50%;
-border: 5px solid black;
-box-sizing: border-box;
-padding: 100px;
-text-align: center;
-margin-left: 200px;
-display: inline-block;
-font-size: 10px;
-color: black;
-height: 200px;
 background-color: aqua;
 }
-
