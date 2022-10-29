@@ -5,26 +5,47 @@
     background-color: orange;
     color: aqua;
 }
+/* este caso es de padre e hijo por ende la unica forma de que el hijo se ponga por encima del padre es la siguiente
+ */
+.padre{
+    color:white;
+    background: rgb(0, 255, 195);
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 50px;
+}
+.hijo{
+    color:white;
+    background: black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+    z-index: -1;
 
+}
+/* El z index sirve para, darle una posicion encima de otra solo cuando esta tenga posicion */
 .box1{
-
+    color:white;
     background-color: rgb(0, 255, 42);
     width: 200px;
     height: 200px;
-
+    position: relative;
+    top: 50px;
+    left: 150px;
+    z-index: 3;
 }
-.box3{
-
-    background-color: rgb(0, 255, 195);
-    width: 200px;
-    height: 200px;
-/* cuando la posicion es relativa toma valores desde el punto de partida sin dejar de ocupar el espacio inicial en pantalla, como si la caja estuviera flotando, los valores primordiales son left y bottom */
-}
+/* en este caso como box1 y box2 tienen posicion relativa obviamente el que se creo de segundo va estar arriba del primero pero poniendo un z index mayor al de la segunda caja box 1 se posiciona delante, como en el ejemplo */
 .box2{
+color:white;
     background-color: rgb(106, 0, 255);
     width: 200px;
     height: 200px;
     position: relative;
     left: 50px;
-    bottom: 100px;
+    z-index: 2;
+
 }
+
