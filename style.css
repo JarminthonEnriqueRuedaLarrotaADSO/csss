@@ -5,16 +5,41 @@
     background-color: orange;
     color: aqua;
 }
-/* el h2 es una caja que ocupa todo el ancho de la pantalla */
-h2 {
-    background-color: black;
+/* Padding es el espacio entre el texto y la caja */
+/* Padding acortado */
+.estilo1 {
+display: inline-block;
+background-color: black;
+padding: 10px 30px 40px 20px;
 }
-/* Este es otro h2 pero con display: inline; que, ocasiona q este no ocupe toda el ancho de la pantalla si no q se transforma en un elemento en linea */
-.caja {
-    display: inline;
-    background-color: blue;
+/* Padding especificando lado por lado */
+.estilo2 {
+display: inline-block;
+background-color: teal;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 40px;
+padding-left: 50px;
 }
-/* este elemento es enlina por lo tanto no ocupa toda la pantalla. */
-b {
-    background-color: azure;
+/* En el content-box el width solo afecta al contenido de la caja  */
+.est1{
+border: 3px solid white;
+box-sizing: content-box;
+display: inline-block;
+padding: 30px ;
+text-align: center;
+background-color: black;
+width: 300px;
+height: 100px;
+}
+/* En el border-box, width afecta a todo el contenido de la caja tanto padding como border */
+.est2{
+border: 3px solid white;
+box-sizing: border-box;    
+display:inline-block;
+padding: 30px;
+text-align: center;
+width: 300px;
+height: 100px;
+background-color: black;
 }
