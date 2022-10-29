@@ -6,18 +6,25 @@
     color: aqua;
 }
 
-.box1, .box2, .box3{
-    display:inline-block;
-    background-color: black;
+.box1{
+
+    background-color: rgb(0, 255, 42);
     width: 200px;
     height: 200px;
-    margin-top: 100px;
+
 }
-/* El outline como tal realiza la funcion de border pero sin afectar con un tamaño a la caja, es como un tipo de rasaltador */
 .box3{
-    outline: 10px solid red;
+
+    background-color: rgb(0, 255, 195);
+    width: 200px;
+    height: 200px;
+/* cuando la posicion es relativa toma valores desde el punto de partida sin dejar de ocupar el espacio inicial en pantalla, como si la caja estuviera flotando, los valores primordiales son left y bottom */
 }
-.box1{
-    margin-left: 300px;
-    outline: 10px dashed red;
+.box2{
+    background-color: rgb(106, 0, 255);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
 }
