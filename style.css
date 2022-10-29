@@ -5,19 +5,22 @@
     background-color: orange;
     color: aqua;
 }
-/* El box model es la jerarquia en la que se encuantran las propiedades de la caja por decir algo:
-content: es el contenido de la caja
-padding: espacio entre contenido y caja 
-border : borde de la caja
-margin : espacio entre caja y exterior */
 .estilo1
 {
-border: 5px dashed black;
+border: 5px solid black;
 height: 50px;
 width: 300px;
-margin: 50px;
+margin: 150px;
 box-sizing: border-box;
 padding: 100px;
 color: black;
 background-color: aqua;
+box-shadow: 15px 15px 20px 10px black;
+transform: rotate(45deg);
+}
+p{
+color: white;
+text-align: center;
+font-size: 50px;
+text-shadow: 20px 10px 5px black;text-shadow: 20px 10px 5px black;text-shadow: 20px 10px 5px black;
 }
