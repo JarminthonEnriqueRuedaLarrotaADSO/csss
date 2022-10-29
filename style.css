@@ -8,6 +8,8 @@
 /* El margin es como el padding pero en lugar de ser el espacio entre el texto y la caja es el espacio entre la caja y el exterior, por ejemplo otra caja */
 .estilo1
 {
+border-radius: 20%;
+border: 5px dashed black;
 margin-left: 50px;
 box-sizing: border-box;
 padding: 100px;
@@ -20,6 +22,8 @@ background-color: aqua;
 }
 .estilo2
 { 
+border-radius: 50%;
+border: 5px solid black;
 box-sizing: border-box;
 padding: 100px;
 text-align: center;
