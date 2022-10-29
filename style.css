@@ -5,22 +5,19 @@
     background-color: orange;
     color: aqua;
 }
-.estilo1
-{
-border: 5px solid black;
-height: 50px;
-width: 300px;
-margin: 150px;
-box-sizing: border-box;
-padding: 100px;
-color: black;
-background-color: aqua;
-box-shadow: 15px 15px 20px 10px black;
-transform: rotate(45deg);
+
+.box1, .box2, .box3{
+    display:inline-block;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
 }
-p{
-color: white;
-text-align: center;
-font-size: 50px;
-text-shadow: 20px 10px 5px black;text-shadow: 20px 10px 5px black;text-shadow: 20px 10px 5px black;
+/* El outline como tal realiza la funcion de border pero sin afectar con un tamaño a la caja, es como un tipo de rasaltador */
+.box3{
+    outline: 10px solid red;
+}
+.box1{
+    margin-left: 300px;
+    outline: 10px dashed red;
 }
