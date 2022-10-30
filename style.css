@@ -5,19 +5,32 @@
     background-color: orange;
     color: aqua;
 }
-/* Este tipo de posicion es una combinacion entre relative y fixed, ya que tiene la funcion de quedarse durante el scroll que pueda hacerse en la pagina pero tambien tiene su propio espacio, como la posicion relative */
-.contenedor{
-    font-size: 30px;
-    color:white;
-    padding: 100px;
-    top: 0;
-    position: sticky;
-    background: rgb(0, 119, 255);
-    height: 200px;
-    width: 2000px;
-    opacity: 1;
+/* b que trae por defecto el display inline */
+b{ 
+    color: white;
+    background: red;
+    border: 3px solid yellow;
 }
-.random{
-    font-size: 50px;
-    top: 100px;
+.s1,.s2,.s3{
+    margin-left: 50px;
+}
+/* p que trae por defecto el diplay block */
+p{
+    margin-top: 20px;
+    padding: 0px;
+    color: white;
+    background: red;
+    border: 3px solid yellow;
+
+}
+/* div con inline-block para manipular mejor las cajas y que no ocupen el espacio de un bloque completo */
+div{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: black;
+    border: 3px blue solid;
 }
