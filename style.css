@@ -5,18 +5,19 @@
     background-color: orange;
     color: aqua;
 }
-/* Esta se usa mas que todo en paginas publicitarias en las cuales, al hacer scroll en la pagina (ir hacia abajo y hacia arriba) lo que se quiere ver seguira estando fijo. */
+/* Este tipo de posicion es una combinacion entre relative y fixed, ya que tiene la funcion de quedarse durante el scroll que pueda hacerse en la pagina pero tambien tiene su propio espacio, como la posicion relative */
 .contenedor{
-    top: 0%;
-    position: fixed;
-    background: rgb(0, 0, 0);
+    font-size: 30px;
+    color:white;
+    padding: 100px;
+    top: 0;
+    position: sticky;
+    background: rgb(0, 119, 255);
     height: 200px;
     width: 2000px;
-    opacity: .7;
-
+    opacity: 1;
 }
 .random{
-    margin-top: 200px;
     font-size: 50px;
     top: 100px;
 }
