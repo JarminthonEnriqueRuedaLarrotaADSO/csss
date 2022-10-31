@@ -6,39 +6,50 @@
     color: aqua;
 }
 
-
-h1{
-    color: black;
-    background: white;
-}
-h2{
-    color: black;
-    font-size: 20px;
-    width: 500px;
-    margin: auto;
-}
-p{
-    color: red;
-    background: white;
-}
-.n1
-{   width: 500px;
+div{
+    width: 400px;
     margin: auto;
     margin-top: 50px;
-    color: black;
-    background: white;
-    padding: 20px;
-    text-align: justify;
-    box-shadow: 10px 20px 5px 10px black;
-
 }
-
-/* En lo que generalmente es mas usado el float o para lo que probablemente resulta mas util */
-img{
-    float: right;
+form{
     width: 300px;
-    margin: 10px;
+    margin: auto;
+    margin-top:50px;
 }
-.imagen{
-    border: 10px solid black;
+input{
+    width: 250px;
+}
+.m1::first-letter {
+    color: black;
+    width: 200px ;
+    font-size: 20px;
+}
+.m2::first-line {
+color: black;
+font-size: 20px;
+}
+.m3::placeholder{
+color: black;
+font-size: 20px;
+}
+p{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+p::selection{
+    color: black;
+    background: red;
+}
+.p1{
+    background: blue;
+}
+.p1::before{
+ content: "before ";
+ color: #fff;
+}
+.p1::after{
+ content: " after";
+ color: black;
 }
