@@ -5,59 +5,40 @@
     background-color: orange;
     color: aqua;
 }
+
+
 h1{
-    text-align: center;
-    text-shadow: 10px 5px 5px black;
+    color: black;
+    background: white;
 }
-/* Elemento sin overflow */
-.s1
-{ 
+h2{
+    color: black;
+    font-size: 20px;
+    width: 500px;
     margin: auto;
-    margin-top: 100px;
-    width: 250px;
-    height: 100px;
-    background: red;
+}
+p{
+    color: red;
+    background: white;
+}
+.n1
+{   width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    color: black;
+    background: white;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 10px 20px 5px 10px black;
 
 }
-/* Elemento con overflow auto */
-.s2
-{ 
-    margin: auto;
-    margin-top: 100px;
-    width: 250px;
-    height: 100px;
-    background: red;
-    overflow: auto;
+
+/* En lo que generalmente es mas usado el float o para lo que probablemente resulta mas util */
+img{
+    float: right;
+    width: 300px;
+    margin: 10px;
 }
-/* Elemento con overflow en el eje x */
-.s3
-{ 
-    margin: auto;
-    margin-top: 100px;
-    width: 250px;
-    height: 100px;
-    background: red;
-    overflow:scroll;
-    overflow-y: hidden;
-}
-/* Elemento con overflow en el eje y */
-.s4
-{ 
-    margin: auto;
-    margin-top: 100px;
-    width: 250px;
-    height: 100px;
-    background: red;
-    overflow-y: scroll;
-}
-/* Elemento con overflow en eje "x" y "y" */
-.s5
-{ 
-    margin: auto;
-    margin-top: 100px;
-    width: 250px;
-    height: 100px;
-    background: red;
-    overflow: scroll;
-    margin-bottom: 50px;
+.imagen{
+    border: 10px solid black;
 }
