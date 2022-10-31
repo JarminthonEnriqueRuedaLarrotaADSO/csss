@@ -6,50 +6,75 @@
     color: aqua;
 }
 
-div{
-    width: 400px;
+.div{
+    padding-top: 90px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
+    background: black;
+    transition: all 1s; 
 }
-form{
-    width: 300px;
-    margin: auto;
-    margin-top:50px;
-}
-input{
-    width: 250px;
-}
-.m1::first-letter {
-    color: black;
-    width: 200px ;
-    font-size: 20px;
-}
-.m2::first-line {
-color: black;
-font-size: 20px;
-}
-.m3::placeholder{
-color: black;
-font-size: 20px;
-}
-p{
-    width: 400px;
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-p::selection{
-    color: black;
-    background: red;
-}
-.p1{
+.div:hover{
     background: blue;
 }
-.p1::before{
- content: "before ";
- color: #fff;
+.a1{
+    width: 100px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+
 }
-.p1::after{
- content: " after";
- color: black;
+.a2{
+    width: 100px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}
+a:link{
+color: black;
+}
+a:visited{
+color: white;
+background: red;
+}
+.div1{
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 50px;
+    transition: all 1s;
+}
+.div1:active{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+.clas{
+width: 200px;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+background-color: black;
+}
+.clas1{
+transition: all 1s;
+width: 200px;
+}
+.clas1:focus{
+background-color: white;
+width: 250px;
+}
+.p1{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.p1 b:lang(en) {
+background: rgb(0, 0, 0);
 }
