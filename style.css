@@ -5,32 +5,59 @@
     background-color: orange;
     color: aqua;
 }
-/* b que trae por defecto el display inline */
-b{ 
-    color: white;
-    background: red;
-    border: 3px solid yellow;
+h1{
+    text-align: center;
+    text-shadow: 10px 5px 5px black;
 }
-.s1,.s2,.s3{
-    margin-left: 50px;
-}
-/* p que trae por defecto el diplay block */
-p{
-    margin-top: 20px;
-    padding: 0px;
-    color: white;
+/* Elemento sin overflow */
+.s1
+{ 
+    margin: auto;
+    margin-top: 100px;
+    width: 250px;
+    height: 100px;
     background: red;
-    border: 3px solid yellow;
 
 }
-/* div con inline-block para manipular mejor las cajas y que no ocupen el espacio de un bloque completo */
-div{
-    color: white;
-    margin-top: 10px;
-    margin-left: 10px;
-    display: inline-block;
-    width: 100px;
+/* Elemento con overflow auto */
+.s2
+{ 
+    margin: auto;
+    margin-top: 100px;
+    width: 250px;
     height: 100px;
-    background: black;
-    border: 3px blue solid;
+    background: red;
+    overflow: auto;
+}
+/* Elemento con overflow en el eje x */
+.s3
+{ 
+    margin: auto;
+    margin-top: 100px;
+    width: 250px;
+    height: 100px;
+    background: red;
+    overflow:scroll;
+    overflow-y: hidden;
+}
+/* Elemento con overflow en el eje y */
+.s4
+{ 
+    margin: auto;
+    margin-top: 100px;
+    width: 250px;
+    height: 100px;
+    background: red;
+    overflow-y: scroll;
+}
+/* Elemento con overflow en eje "x" y "y" */
+.s5
+{ 
+    margin: auto;
+    margin-top: 100px;
+    width: 250px;
+    height: 100px;
+    background: red;
+    overflow: scroll;
+    margin-bottom: 50px;
 }
