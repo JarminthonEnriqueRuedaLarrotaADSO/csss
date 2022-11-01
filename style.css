@@ -15,10 +15,13 @@
     border: 5px solid rgb(255, 255, 255);
     cursor: pointer;
 }
-p{
-    padding-top: 100px;
-    width: 300px;
+p{ font-size: 26px;
+    padding-top: 70px;
+    width: 350px;
     height: auto;
     margin: auto;
     background-color: black;
+}
+a{
+    color: white;
 }
